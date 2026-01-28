@@ -5,7 +5,6 @@ const artist = document.querySelector("p");
 const playBtn = document.getElementById("play");
 const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
-const repeatBtn = document.getElementById("repeat");
 const volume = document.getElementById("volume");
 const progress = document.getElementById("progress");
 const songs = {

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="description" content="A simple music player application." />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>Simple Music Player</h1>
+      <div id="music-player">
+        <img src="" alt="" width="200" />
+        <h2>Song name</h2>
+        <p>Artist name</p>
+
+        <audio id="audio"></audio>
+        <input type="range" id="progress" value="0" max="100" />
+        <div class="controls">
+          <button id="prev"><i class="fa-solid fa-backward-fast"></i></button>
+          <button id="play"><i class="fa-solid fa-play"></i></button>
+          <button id="next"><i class="fa-solid fa-forward-fast"></i></button>
+          <!-- <button id="repeat"><i class="fa-solid fa-repeat"></i></button> -->
+        </div>
+        <label>Volume:</label>
+        <input type="range" id="volume" value="0" max="100" />
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,32 +1,36 @@
-Simple Music Player
+🎵 Simple Music Player
 
-A modern and lightweight music player built using HTML, CSS, and JavaScript.
-This project features a clean user interface with circular album art, playback controls, progress tracking, and volume adjustment.
+A clean and modern Simple Music Player built with HTML, CSS, and JavaScript.
+It features a minimal UI, circular album artwork, playback controls, and volume management — perfect for learning or showcasing frontend skills.
 
-Features
+📸 Preview
 
-Play and pause audio
+UI includes circular album art, song title, artist name, progress bar, playback controls, and volume slider.
 
-Previous and next track controls
+🚀 Features
 
-Music progress bar
+▶️ Play / Pause music
 
-Volume control slider
+⏮️ Previous & ⏭️ Next track controls
 
-Clean and modern dark UI
+🎚️ Volume control slider
 
-Responsive layout
+📊 Music progress bar
 
-Technologies Used
+🎨 Modern, dark-themed UI
 
-HTML5
+📱 Responsive design
 
-CSS3
+🛠️ Technologies Used
 
-JavaScript (Vanilla)
+HTML5 – structure
 
-Project Structure
-Simple-Music-Player/
+CSS3 – styling & layout
+
+JavaScript (Vanilla) – audio control logic
+
+📂 Project Structure
+music-player/
 │
 ├── index.html
 ├── style.css
@@ -36,48 +40,52 @@ Simple-Music-Player/
 │   └── images/
 └── README.md
 
-How to Run the Project
+⚙️ How to Use
 
-Download or clone the repository
+Clone the repository
 
-Open the project folder
+git clone https://github.com//simple-music-player.git
 
-Open index.html in any modern web browser
 
-No additional setup is required.
+Open the project
 
-Customization
+Navigate to the folder
 
-Add your own audio files inside the assets/music folder
+Open index.html in your browser
 
-Update song details in script.js
+Add your own music
 
-Modify styles in style.css to change the UI appearance
+Place audio files inside the assets/music folder
 
-Use Case
+Update the track list in script.js
 
-Frontend practice project
+🎧 Customization
 
-Portfolio showcase
+Change player size in style.css
 
-Learning audio handling in JavaScript
+Replace album artwork images
 
-UI/UX experimentation
+Add more songs to the playlist
 
-Future Enhancements
+Improve UI with animations or themes
+
+💡 Future Improvements
 
 Playlist support
 
-Shuffle and repeat options
+Shuffle & repeat modes
 
-Mobile-friendly gestures
+Mobile gesture support
 
 Song duration display
 
-License
+Local storage for last played track
+
+📜 License
 
 This project is open-source and free to use for learning and personal projects.
 
-Author
+🙌 Author
 
-Your Name Hassan Muahyyudin
+Your Name 
+Hassan Muhayyudin
